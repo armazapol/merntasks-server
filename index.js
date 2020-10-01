@@ -26,7 +26,7 @@ app.use('/api/tareas', require('./routes/tareas'))
 // definir la pagina principal 
 
 
-// arrancar la app
+// arrancar la appp
 app.listen(port, '0.0.0.0', () => {
     console.log(`el servidor esta funcionando en el puerto ${port}`)
 })
